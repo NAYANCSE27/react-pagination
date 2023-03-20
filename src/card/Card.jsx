@@ -1,13 +1,10 @@
 import "./Card.css";
 
 function Card(objectProp) {
-//   console.log(objectProp.props.API);
   return (
     <div className="card">
       <div className="container">
-        <h4>
-          <b>{objectProp.props.API}</b>
-        </h4>
+        <h1>{objectProp.props.API}</h1>
         <p>{objectProp.props.Category}</p>
         <a href={objectProp.props.Link}>{objectProp.props.Description}</a>
       </div>
