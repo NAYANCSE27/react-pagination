@@ -1,5 +1,40 @@
-.list{
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    justify-content: space-around;
+    margin-left: 13%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+
+.header button {
+    text-decoration: underline;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.header button:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    font-size: 1.4rem;
+    transition: 0.7s;
+}
+
+.list {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }

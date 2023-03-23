@@ -1,7 +1,6 @@
 import "./Card.css";
 
 function Card(objectProp) {
-  //   console.log(objectProp.props.API);
   return (
     <div className="card">
       <div className="container">
