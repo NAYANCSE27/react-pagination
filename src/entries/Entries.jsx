@@ -19,8 +19,11 @@ function Entries() {
       });
   }, []);
 
+  function handleSortButton() {}
+
   return (
     <div className="list">
+      <button>SORT</button>
       <ul>
         {entries.map((entry, index) => (
           <div key={index}>
@@ -28,6 +31,7 @@ function Entries() {
           </div>
         ))}
       </ul>
+      <div></div>
     </div>
   );
 }
