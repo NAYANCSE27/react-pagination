@@ -38,3 +38,19 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+.footer button {
+    text-decoration: underline;
+    border-radius: 10%;
+    cursor: pointer;
+    padding: 2vh 3%;
+}
+
+.footer button:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    font-size: 1.4rem;
+    transition: 0.7s;
+}
